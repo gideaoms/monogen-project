@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e6ef01315ea0a711a312e49c496bb10c",
+    "content-hash": "ddff6726e943cf26c132981abf8ba7e7",
+    "packages": [
+        {
+            "name": "gideaoms/monogen",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gideaoms/monogen.git",
+                "reference": "b9cd3f039f3b450c94972c58477a028fd9e85179"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gideaoms/monogen/zipball/b9cd3f039f3b450c94972c58477a028fd9e85179",
+                "reference": "b9cd3f039f3b450c94972c58477a028fd9e85179",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Monogen\\": "src/Monogen/"
+                },
+                "files": [
+                    "src/Monogen/Util/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gideão Silva",
+                    "email": "gideaoms@gmail.com"
+                }
+            ],
+            "description": "Framework para gerenciar projetos em PHP",
+            "keywords": [
+                "php"
+            ],
+            "time": "2016-07-29 14:09:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}

@@ -1,0 +1,23 @@
+{
+	"name": "gideaoms/monogen-project",
+	"description": "Projeto de que instala as configurações básicas do monogen",
+	"type": "project",
+	"keywords": ["php", "web"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Gideao Silva",
+			"email": "gideaoms@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	},
+	"require": {
+		"php": ">=5.3.3",
+		"gideaoms/monogen-framework": "0.1.*"
+	}
+}
