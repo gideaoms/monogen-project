@@ -19,5 +19,8 @@
 	"require": {
 		"php": ">=5.3.3",
 		"gideaoms/monogen": "0.1.*"
+	},
+	"config": {
+     	   "preferred-install": "dist"
 	}
 }
