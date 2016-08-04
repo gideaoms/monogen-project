@@ -5,17 +5,22 @@ namespace App\Requests\Controllers;
 use Monogen\Http\Request;
 use App\Models\ExampleModel;
 
-class NoteController
+class ExampleController
 {
 	private $example;
 
 	public function __construct()
 	{
-		$this->example = new ExampleModel;
+		/*
+		| $this->example = new ExampleModel;
+		*/
 	}
 
 	public function index(Request $request)
 	{
-		return $this->example->all();
+		/*
+		| return $this->example->all();
+		*/
+		return "Hello world!";
 	}
 }

@@ -10,7 +10,7 @@ class ExampleModel extends Model
 
 	public function all()
 	{
-		return ['message' => 'Hello! i am index.'];
+		return $this->all();
 	}
 
 }
