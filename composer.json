@@ -1,5 +1,5 @@
 {
-	"name": "gideaoms/monogen-project123",
+	"name": "gideaoms/monogen-project",
 	"description": "Projeto de que instala as configurações básicas do monogen",
 	"type": "project",
 	"keywords": ["php", "web"],
@@ -18,9 +18,6 @@
 	},
 	"require": {
 		"php": ">=5.3.3",
-		"gideaoms/monogen-framework": "0.1.*"
-	},
-	"config": {
-        	"preferred-install": "dist"
-    	}
+		"gideaoms/monogen": "0.1.*"
+	}
 }
