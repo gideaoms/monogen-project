@@ -1,0 +1,18 @@
+{
+	"app": {
+		"timezone": "America/Sao_Paulo"
+	},
+	"database": {
+		"default": "mysql",
+		"connections": {
+			"mysql": {
+				"driver": "mysql",
+	            "host": "127.0.0.1",
+	            "database": "younote",
+	            "username": "root",
+	            "password": "123654",
+	            "charset": "utf8"
+			}
+		}
+	}
+}
