@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Requests\Controllers;
+namespace App\Controllers;
 
 use Monogen\Http\Request;
 use App\Models\ExampleModel;
